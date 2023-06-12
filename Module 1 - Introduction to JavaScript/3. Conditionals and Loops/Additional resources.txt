@@ -1,0 +1,14 @@
+Comparison Operators 
+https://www.javascripttutorial.net/javascript-comparison-operators/
+
+Truthy 
+https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+
+Falsy 
+https://developer.mozilla.org/en-US/docs/Glossary/Falsy
+
+Conditional statements
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+
+Conditional (ternary) operator
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
