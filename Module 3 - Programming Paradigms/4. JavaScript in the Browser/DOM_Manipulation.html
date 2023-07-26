@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Manipulation</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            const h2 = document.createElement("h2");
+
+            h2.setAttribute("id", "sub-heading");
+
+            h2.setAttribute("class", "secondary");
+
+            h2.innerText = "This is an h2 heading";
+
+            document.body.appendChild(h2);
+        </script>
+    </body>
+</html>
