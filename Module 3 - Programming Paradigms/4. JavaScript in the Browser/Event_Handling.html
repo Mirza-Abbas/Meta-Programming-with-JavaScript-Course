@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Handling</title>
+    </head>
+    <body>
+        <h1>Click Here & Check Output in Console Tab of Browser's DevTools</h1>
+        <script type="text/javascript">
+            var target = document.querySelector('body');
+
+            function handleClick() {
+
+                console.log("Clicked the Body");
+            }
+
+            target.addEventListener('click', handleClick);
+        </script>
+    </body>
+</html>
