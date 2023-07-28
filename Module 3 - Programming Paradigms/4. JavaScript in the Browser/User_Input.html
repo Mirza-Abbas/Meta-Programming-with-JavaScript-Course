@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Input</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var h1 = document.createElement('h1')
+            h1.innerText = "Type into the input field & press Enter to make this text change"
+
+            var input = document.createElement('input')
+            input.setAttribute('type', 'text')
+
+            document.body.innerText = '';
+            document.body.appendChild(h1);
+            document.body.appendChild(input);
+
+            function update() {
+                h1.innerText = input.value;
+            }
+
+            input.addEventListener('change', update);
+        </script>
+    </body>
+</html>
